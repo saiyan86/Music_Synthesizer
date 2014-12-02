@@ -1,0 +1,208 @@
+# Reading G:/Course/ECE/ECE385/Altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do Music_Systhesizer_run_msim_rtl_systemverilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying G:\Course\ECE\ECE385\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied G:\Course\ECE\ECE385\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+J:/ECE385/Music_Synthesizer {J:/ECE385/Music_Synthesizer/sine.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sine_cos
+# 
+# Top level modules:
+# 	sine_cos
+# vlog -vlog01compat -work work +incdir+J:/ECE385/Music_Synthesizer {J:/ECE385/Music_Synthesizer/soundGen.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module soundGen
+# 
+# Top level modules:
+# 	soundGen
+# vlib usb_system
+# vmap usb_system usb_system
+# Modifying modelsim.ini
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/usb_system.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system
+# 
+# Top level modules:
+# 	usb_system
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_1
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_1
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_mm_clock_crossing_bridge
+# 
+# Top level modules:
+# 	altera_avalon_mm_clock_crossing_bridge
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_dc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_dc_fifo
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_dcfifo_synchronizer_bundle
+# 
+# Top level modules:
+# 	altera_dcfifo_synchronizer_bundle
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module CY7C67200_IF
+# 
+# Top level modules:
+# 	CY7C67200_IF
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_keycode
+# 
+# Top level modules:
+# 	usb_system_keycode
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_clocks_dffpipe_l2c
+# -- Compiling module usb_system_clocks_stdsync_sv6
+# -- Compiling module usb_system_clocks_altpll_pqa2
+# -- Compiling module usb_system_clocks
+# 
+# Top level modules:
+# 	usb_system_clocks
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_register_bank_a_module
+# -- Compiling module usb_system_cpu_register_bank_b_module
+# -- Compiling module usb_system_cpu_nios2_oci_debug
+# -- Compiling module usb_system_cpu_ociram_sp_ram_module
+# -- Compiling module usb_system_cpu_nios2_ocimem
+# -- Compiling module usb_system_cpu_nios2_avalon_reg
+# -- Compiling module usb_system_cpu_nios2_oci_break
+# -- Compiling module usb_system_cpu_nios2_oci_xbrk
+# -- Compiling module usb_system_cpu_nios2_oci_dbrk
+# -- Compiling module usb_system_cpu_nios2_oci_itrace
+# -- Compiling module usb_system_cpu_nios2_oci_td_mode
+# -- Compiling module usb_system_cpu_nios2_oci_dtrace
+# -- Compiling module usb_system_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module usb_system_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module usb_system_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module usb_system_cpu_nios2_oci_fifo
+# -- Compiling module usb_system_cpu_nios2_oci_pib
+# -- Compiling module usb_system_cpu_nios2_oci_im
+# -- Compiling module usb_system_cpu_nios2_performance_monitors
+# -- Compiling module usb_system_cpu_nios2_oci
+# -- Compiling module usb_system_cpu
+# 
+# Top level modules:
+# 	usb_system_cpu_nios2_performance_monitors
+# 	usb_system_cpu
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_jtag_debug_module_sysclk
+# 
+# Top level modules:
+# 	usb_system_cpu_jtag_debug_module_sysclk
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_jtag_debug_module_tck
+# 
+# Top level modules:
+# 	usb_system_cpu_jtag_debug_module_tck
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_jtag_debug_module_wrapper
+# 
+# Top level modules:
+# 	usb_system_cpu_jtag_debug_module_wrapper
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_oci_test_bench
+# 
+# Top level modules:
+# 	usb_system_cpu_oci_test_bench
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_test_bench
+# 
+# Top level modules:
+# 	usb_system_cpu_test_bench
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_jtag_uart_sim_scfifo_w
+# -- Compiling module usb_system_jtag_uart_scfifo_w
+# -- Compiling module usb_system_jtag_uart_sim_scfifo_r
+# -- Compiling module usb_system_jtag_uart_scfifo_r
+# -- Compiling module usb_system_jtag_uart
+# 
+# Top level modules:
+# 	usb_system_jtag_uart
+# vlog -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules {J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_sdram_input_efifo_module
+# -- Compiling module usb_system_sdram
+# 
+# Top level modules:
+# 	usb_system_sdram
+# vlog -sv -work work +incdir+J:/ECE385/Music_Synthesizer/lab7_usb {J:/ECE385/Music_Synthesizer/lab7_usb/lab7_usb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module lab7_usb
+# 
+# Top level modules:
+# 	lab7_usb
+# vlog -sv -work work +incdir+J:/ECE385/Music_Synthesizer/lab7_usb {J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module keybuffer
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(20): (vlog-2110) Illegal reference to net "slowclk".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(26): (vlog-2110) Illegal reference to net "slowclk".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(35): (vlog-2110) Illegal reference to net "keybuffer".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(45): (vlog-2110) Illegal reference to net "keybuffer".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(50): (vlog-2110) Illegal reference to net "keybuffer".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(51): (vlog-2110) Illegal reference to net "keybuffer".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(57): (vlog-2110) Illegal reference to net "keybuffer".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(58): (vlog-2110) Illegal reference to net "state".
+# 
+# ** Error: J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv(64): (vlog-2110) Illegal reference to net "keybuffer".
+# 
+# ** Error: G:/Course/ECE/ECE385/Altera/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Music_Systhesizer_run_msim_rtl_systemverilog.do line 33
+# G:/Course/ECE/ECE385/Altera/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+J:/ECE385/Music_Synthesizer/lab7_usb {J:/ECE385/Music_Synthesizer/lab7_usb/keybuffer.sv}"

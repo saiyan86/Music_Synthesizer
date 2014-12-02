@@ -1,0 +1,69 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb --output-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\simulation --file-set=SIM_VERILOG --report-file=html:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.html --report-file=sopcinfo:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms.sopcinfo --report-file=csv:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.csv --report-file=spd:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.spd --report-file=cmp:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.cmp --report-file=sip:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\simulation\clock_100ms.sip --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms.qsys
+Progress: Loading lab7_usb/clock_100ms.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 14.0]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: clock_100ms.altclkctrl_0: Targeting device family: Cyclone IV E.
+: clock_100ms.altclkctrl_0: External clock buffer represents the clock path from the outputs of the PLL to the dedicated clock output pins. Only one clock input is accepted.
+Info: clock_100ms: Generating clock_100ms "clock_100ms" for SIM_VERILOG
+Info: altclkctrl_0: Generating top-level entity clock_100ms_altclkctrl_0.
+Info: altclkctrl_0: "clock_100ms" instantiated altclkctrl "altclkctrl_0"
+Info: clock_100ms: Done "clock_100ms" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.spd --output-directory=G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/
+Info: Doing: ip-make-simscript --spd=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.spd --output-directory=G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/clock_100ms/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb --output-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms --report-file=bsf:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms.qsys
+Progress: Loading lab7_usb/clock_100ms.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 14.0]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: clock_100ms.altclkctrl_0: Targeting device family: Cyclone IV E.
+: clock_100ms.altclkctrl_0: External clock buffer represents the clock path from the outputs of the PLL to the dedicated clock output pins. Only one clock input is accepted.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb --output-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\synthesis --file-set=QUARTUS_SYNTH --report-file=html:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.html --report-file=sopcinfo:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms.sopcinfo --report-file=cmp:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.cmp --report-file=qip:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\synthesis\clock_100ms.qip --report-file=svd:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\synthesis\clock_100ms.svd --report-file=regmap:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\synthesis\clock_100ms.regmap --report-file=xml:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\clock_100ms.xml --report-file=debuginfo:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms\synthesis\clock_100ms.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\clock_100ms.qsys --language=VERILOG
+Progress: Loading lab7_usb/clock_100ms.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 14.0]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: clock_100ms.altclkctrl_0: Targeting device family: Cyclone IV E.
+: clock_100ms.altclkctrl_0: External clock buffer represents the clock path from the outputs of the PLL to the dedicated clock output pins. Only one clock input is accepted.
+Info: clock_100ms: Generating clock_100ms "clock_100ms" for QUARTUS_SYNTH
+Info: altclkctrl_0: Generating top-level entity clock_100ms_altclkctrl_0.
+Info: altclkctrl_0: "clock_100ms" instantiated altclkctrl "altclkctrl_0"
+Info: clock_100ms: Done "clock_100ms" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

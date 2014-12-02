@@ -1,0 +1,18 @@
+# system info clock_100ms on 2014.11.30.16:36:38
+system_info:
+name,value
+DEVICE,EP4CE115F29C7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1417383397
+#
+#
+# Files generated for clock_100ms on 2014.11.30.16:36:38
+files:
+filepath,kind,attributes,module,is_top
+simulation/clock_100ms.v,VERILOG,,clock_100ms,true
+simulation/submodules/clock_100ms_altclkctrl_0.v,VERILOG,,clock_100ms_altclkctrl_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+clock_100ms.altclkctrl_0,clock_100ms_altclkctrl_0

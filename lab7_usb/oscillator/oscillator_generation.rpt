@@ -1,0 +1,66 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb --output-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\simulation --file-set=SIM_VERILOG --report-file=html:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.html --report-file=sopcinfo:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator.sopcinfo --report-file=csv:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.csv --report-file=spd:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.spd --report-file=cmp:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.cmp --report-file=sip:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\simulation\oscillator.sip --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator.qsys
+Progress: Loading lab7_usb/oscillator.qsys
+Progress: Reading input file
+Progress: Adding int_osc_0 [altera_int_osc 14.0]
+Progress: Parameterizing module int_osc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: oscillator.oscillator: There are recommended upgrades for: int_osc_0
+Info: oscillator: Generating oscillator "oscillator" for SIM_VERILOG
+Info: int_osc_0: Generating top-level entity oscillator_int_osc_0.
+Info: int_osc_0: "oscillator" instantiated altera_int_osc "int_osc_0"
+Info: oscillator: Done "oscillator" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.spd --output-directory=G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/
+Info: Doing: ip-make-simscript --spd=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.spd --output-directory=G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in G:/Course/ECE/ECE385/lab7_usb_notSAFE!!!/lab7_usb/oscillator/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb --output-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator --report-file=bsf:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator.qsys
+Progress: Loading lab7_usb/oscillator.qsys
+Progress: Reading input file
+Progress: Adding int_osc_0 [altera_int_osc 14.0]
+Progress: Parameterizing module int_osc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: oscillator.oscillator: There are recommended upgrades for: int_osc_0
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb --output-directory=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\synthesis --file-set=QUARTUS_SYNTH --report-file=html:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.html --report-file=sopcinfo:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator.sopcinfo --report-file=cmp:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.cmp --report-file=qip:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\synthesis\oscillator.qip --report-file=svd:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\synthesis\oscillator.svd --report-file=regmap:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\synthesis\oscillator.regmap --report-file=xml:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\oscillator.xml --report-file=debuginfo:G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator\synthesis\oscillator.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=G:\Course\ECE\ECE385\lab7_usb_notSAFE!!!\lab7_usb\oscillator.qsys --language=VERILOG
+Progress: Loading lab7_usb/oscillator.qsys
+Progress: Reading input file
+Progress: Adding int_osc_0 [altera_int_osc 14.0]
+Progress: Parameterizing module int_osc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: oscillator.oscillator: There are recommended upgrades for: int_osc_0
+Info: oscillator: Generating oscillator "oscillator" for QUARTUS_SYNTH
+Info: int_osc_0: Generating top-level entity oscillator_int_osc_0.
+Info: int_osc_0: "oscillator" instantiated altera_int_osc "int_osc_0"
+Info: oscillator: Done "oscillator" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

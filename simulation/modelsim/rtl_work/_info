@@ -1,0 +1,69 @@
+m255
+K3
+13
+cModel Technology
+Z0 dJ:\ECE385\Music_Synthesizer\simulation\modelsim
+vlab7_usb
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 UI6H`z_KU7kcHfz76NUIU1
+I^]_CS;oSNof@X2;ZeNlOk1
+VCXzzD66eE>U@W<@M5D=Dg2
+!s105 lab7_usb_sv_unit
+S1
+Z1 dJ:\ECE385\Music_Synthesizer\simulation\modelsim
+w1417476883
+8J:/ECE385/Music_Synthesizer/lab7_usb/lab7_usb.sv
+FJ:/ECE385/Music_Synthesizer/lab7_usb/lab7_usb.sv
+L0 13
+Z2 OV;L;10.1e;51
+r1
+!s85 0
+31
+!s108 1417535828.043000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/lab7_usb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb|J:/ECE385/Music_Synthesizer/lab7_usb/lab7_usb.sv|
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work +incdir+J:/ECE385/Music_Synthesizer/lab7_usb -O0
+vsine_cos
+Z3 I_I2Mj3UKk6FdMV4:>UlQO0
+Z4 V=XT6l=ITEm?QZf0_Dc`5=3
+R1
+Z5 w1417487495
+Z6 8J:/ECE385/Music_Synthesizer/sine.v
+Z7 FJ:/ECE385/Music_Synthesizer/sine.v
+L0 1
+R2
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s100 WY3E9Tl76GjQ6Ko3`n1BN0
+Z10 !s108 1417535820.874000
+Z11 !s107 J:/ECE385/Music_Synthesizer/sine.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/ECE385/Music_Synthesizer|J:/ECE385/Music_Synthesizer/sine.v|
+Z13 !s92 -vlog01compat -work work +incdir+J:/ECE385/Music_Synthesizer -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vsoundGen
+Z14 I0J5]8z@DCgH5Wd02AURY>1
+Z15 V[X53<@6TG<78GmG@B:d1k3
+R1
+Z16 w1417487728
+Z17 8J:/ECE385/Music_Synthesizer/soundGen.v
+Z18 FJ:/ECE385/Music_Synthesizer/soundGen.v
+L0 1
+R2
+r1
+31
+R8
+R13
+Z19 nsound@gen
+!i10b 1
+Z20 !s100 4CNcX0Rl>83SV0K?UP5YE1
+!s85 0
+Z21 !s108 1417535821.073000
+Z22 !s107 J:/ECE385/Music_Synthesizer/soundGen.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/ECE385/Music_Synthesizer|J:/ECE385/Music_Synthesizer/soundGen.v|
+!s101 -O0

@@ -1,0 +1,612 @@
+set_location_assignment PIN_D12 -to Blue[7]
+set_location_assignment PIN_D11 -to Blue[6]
+set_location_assignment PIN_C12 -to Blue[5]
+set_location_assignment PIN_A11 -to Blue[4]
+set_location_assignment PIN_B11 -to Blue[3]
+set_location_assignment PIN_C11 -to Blue[2]
+set_location_assignment PIN_A10 -to Blue[1]
+set_location_assignment PIN_B10 -to Blue[0]
+set_location_assignment PIN_Y2 -to Clk
+set_location_assignment PIN_C9 -to Green[7]
+set_location_assignment PIN_F10 -to Green[6]
+set_location_assignment PIN_B8 -to Green[5]
+set_location_assignment PIN_C8 -to Green[4]
+set_location_assignment PIN_H12 -to Green[3]
+set_location_assignment PIN_F8 -to Green[2]
+set_location_assignment PIN_G11 -to Green[1]
+set_location_assignment PIN_G8 -to Green[0]
+set_location_assignment PIN_M21 -to Reset
+set_location_assignment PIN_A12 -to VGA_clk
+set_location_assignment PIN_F11 -to blank
+set_location_assignment PIN_G13 -to hs
+set_location_assignment PIN_C10 -to sync
+set_location_assignment PIN_C13 -to vs
+set_location_assignment PIN_H22 -to HEX0[6]
+set_location_assignment PIN_J22 -to HEX0[5]
+set_location_assignment PIN_L25 -to HEX0[4]
+set_location_assignment PIN_L26 -to HEX0[3]
+set_location_assignment PIN_E17 -to HEX0[2]
+set_location_assignment PIN_F22 -to HEX0[1]
+set_location_assignment PIN_G18 -to HEX0[0]
+set_location_assignment PIN_U24 -to HEX1[6]
+set_location_assignment PIN_U23 -to HEX1[5]
+set_location_assignment PIN_W25 -to HEX1[4]
+set_location_assignment PIN_W22 -to HEX1[3]
+set_location_assignment PIN_W21 -to HEX1[2]
+set_location_assignment PIN_Y22 -to HEX1[1]
+set_location_assignment PIN_M24 -to HEX1[0]
+set_location_assignment PIN_W28 -to HEX2[6]
+set_location_assignment PIN_W27 -to HEX2[5]
+set_location_assignment PIN_Y26 -to HEX2[4]
+set_location_assignment PIN_W26 -to HEX2[3]
+set_location_assignment PIN_Y25 -to HEX2[2]
+set_location_assignment PIN_AA26 -to HEX2[1]
+set_location_assignment PIN_AA25 -to HEX2[0]
+set_location_assignment PIN_Y19 -to HEX3[6]
+set_location_assignment PIN_AF23 -to HEX3[5]
+set_location_assignment PIN_AD24 -to HEX3[4]
+set_location_assignment PIN_AA21 -to HEX3[3]
+set_location_assignment PIN_AB20 -to HEX3[2]
+set_location_assignment PIN_U21 -to HEX3[1]
+set_location_assignment PIN_V21 -to HEX3[0]
+set_location_assignment PIN_AE18 -to HEX4[6]
+set_location_assignment PIN_AF19 -to HEX4[5]
+set_location_assignment PIN_AE19 -to HEX4[4]
+set_location_assignment PIN_AH21 -to HEX4[3]
+set_location_assignment PIN_AG21 -to HEX4[2]
+set_location_assignment PIN_AA19 -to HEX4[1]
+set_location_assignment PIN_AB19 -to HEX4[0]
+set_location_assignment PIN_AH18 -to HEX5[6]
+set_location_assignment PIN_AF18 -to HEX5[5]
+set_location_assignment PIN_AG19 -to HEX5[4]
+set_location_assignment PIN_AH19 -to HEX5[3]
+set_location_assignment PIN_AB18 -to HEX5[2]
+set_location_assignment PIN_AC18 -to HEX5[1]
+set_location_assignment PIN_AD18 -to HEX5[0]
+set_location_assignment PIN_AC17 -to HEX6[6]
+set_location_assignment PIN_AA15 -to HEX6[5]
+set_location_assignment PIN_AB15 -to HEX6[4]
+set_location_assignment PIN_AB17 -to HEX6[3]
+set_location_assignment PIN_AA16 -to HEX6[2]
+set_location_assignment PIN_AB16 -to HEX6[1]
+set_location_assignment PIN_AA17 -to HEX6[0]
+set_location_assignment PIN_AA14 -to HEX7[6]
+set_location_assignment PIN_AG18 -to HEX7[5]
+set_location_assignment PIN_AF17 -to HEX7[4]
+set_location_assignment PIN_AH17 -to HEX7[3]
+set_location_assignment PIN_AG17 -to HEX7[2]
+set_location_assignment PIN_AE17 -to HEX7[1]
+set_location_assignment PIN_AD17 -to HEX7[0]
+set_location_assignment PIN_F17 -to LEDG[8]
+set_location_assignment PIN_G21 -to LEDG[7]
+set_location_assignment PIN_G22 -to LEDG[6]
+set_location_assignment PIN_G20 -to LEDG[5]
+set_location_assignment PIN_H21 -to LEDG[4]
+set_location_assignment PIN_E24 -to LEDG[3]
+set_location_assignment PIN_E25 -to LEDG[2]
+set_location_assignment PIN_E22 -to LEDG[1]
+set_location_assignment PIN_E21 -to LEDG[0]
+set_location_assignment PIN_H15 -to LEDR[17]
+set_location_assignment PIN_G16 -to LEDR[16]
+set_location_assignment PIN_G15 -to LEDR[15]
+set_location_assignment PIN_F15 -to LEDR[14]
+set_location_assignment PIN_H17 -to LEDR[13]
+set_location_assignment PIN_J16 -to LEDR[12]
+set_location_assignment PIN_H16 -to LEDR[11]
+set_location_assignment PIN_J15 -to LEDR[10]
+set_location_assignment PIN_G17 -to LEDR[9]
+set_location_assignment PIN_J17 -to LEDR[8]
+set_location_assignment PIN_H19 -to LEDR[7]
+set_location_assignment PIN_J19 -to LEDR[6]
+set_location_assignment PIN_E18 -to LEDR[5]
+set_location_assignment PIN_F18 -to LEDR[4]
+set_location_assignment PIN_F21 -to LEDR[3]
+set_location_assignment PIN_E19 -to LEDR[2]
+set_location_assignment PIN_F19 -to LEDR[1]
+set_location_assignment PIN_G19 -to LEDR[0]
+set_location_assignment PIN_C3 -to OTG_ADDR[1]
+set_location_assignment PIN_H7 -to OTG_ADDR[0]
+set_location_assignment PIN_A3 -to OTG_CS_N
+set_location_assignment PIN_F3 -to OTG_DATA[14]
+set_location_assignment PIN_F1 -to OTG_DATA[13]
+set_location_assignment PIN_G3 -to OTG_DATA[12]
+set_location_assignment PIN_G2 -to OTG_DATA[11]
+set_location_assignment PIN_G1 -to OTG_DATA[10]
+set_location_assignment PIN_H4 -to OTG_DATA[9]
+set_location_assignment PIN_H3 -to OTG_DATA[8]
+set_location_assignment PIN_H6 -to OTG_DATA[7]
+set_location_assignment PIN_J7 -to OTG_DATA[6]
+set_location_assignment PIN_J3 -to OTG_DATA[5]
+set_location_assignment PIN_J4 -to OTG_DATA[4]
+set_location_assignment PIN_K3 -to OTG_DATA[3]
+set_location_assignment PIN_J5 -to OTG_DATA[2]
+set_location_assignment PIN_K4 -to OTG_DATA[1]
+set_location_assignment PIN_J6 -to OTG_DATA[0]
+set_location_assignment PIN_B3 -to OTG_RD_N
+set_location_assignment PIN_C5 -to OTG_RST_N
+set_location_assignment PIN_A4 -to OTG_WR_N
+set_location_assignment PIN_Y7 -to sdram_wire_addr[12]
+set_location_assignment PIN_AA5 -to sdram_wire_addr[11]
+set_location_assignment PIN_R5 -to sdram_wire_addr[10]
+set_location_assignment PIN_Y6 -to sdram_wire_addr[9]
+set_location_assignment PIN_Y5 -to sdram_wire_addr[8]
+set_location_assignment PIN_AA7 -to sdram_wire_addr[7]
+set_location_assignment PIN_W7 -to sdram_wire_addr[6]
+set_location_assignment PIN_W8 -to sdram_wire_addr[5]
+set_location_assignment PIN_V5 -to sdram_wire_addr[4]
+set_location_assignment PIN_P1 -to sdram_wire_addr[3]
+set_location_assignment PIN_U8 -to sdram_wire_addr[2]
+set_location_assignment PIN_V8 -to sdram_wire_addr[1]
+set_location_assignment PIN_R6 -to sdram_wire_addr[0]
+set_location_assignment PIN_R4 -to sdram_wire_ba[1]
+set_location_assignment PIN_U7 -to sdram_wire_ba[0]
+set_location_assignment PIN_V7 -to sdram_wire_cas_n
+set_location_assignment PIN_AA6 -to sdram_wire_cke
+set_location_assignment PIN_T4 -to sdram_wire_cs_n
+set_location_assignment PIN_U1 -to sdram_wire_dq[31]
+set_location_assignment PIN_U4 -to sdram_wire_dq[30]
+set_location_assignment PIN_T3 -to sdram_wire_dq[29]
+set_location_assignment PIN_R3 -to sdram_wire_dq[28]
+set_location_assignment PIN_R2 -to sdram_wire_dq[27]
+set_location_assignment PIN_R1 -to sdram_wire_dq[26]
+set_location_assignment PIN_R7 -to sdram_wire_dq[25]
+set_location_assignment PIN_U5 -to sdram_wire_dq[24]
+set_location_assignment PIN_L7 -to sdram_wire_dq[23]
+set_location_assignment PIN_M7 -to sdram_wire_dq[22]
+set_location_assignment PIN_M4 -to sdram_wire_dq[21]
+set_location_assignment PIN_N4 -to sdram_wire_dq[20]
+set_location_assignment PIN_N3 -to sdram_wire_dq[19]
+set_location_assignment PIN_P2 -to sdram_wire_dq[18]
+set_location_assignment PIN_L8 -to sdram_wire_dq[17]
+set_location_assignment PIN_M8 -to sdram_wire_dq[16]
+set_location_assignment PIN_AC2 -to sdram_wire_dq[15]
+set_location_assignment PIN_AB3 -to sdram_wire_dq[14]
+set_location_assignment PIN_AC1 -to sdram_wire_dq[13]
+set_location_assignment PIN_AB2 -to sdram_wire_dq[12]
+set_location_assignment PIN_AA3 -to sdram_wire_dq[11]
+set_location_assignment PIN_AB1 -to sdram_wire_dq[10]
+set_location_assignment PIN_Y4 -to sdram_wire_dq[9]
+set_location_assignment PIN_Y3 -to sdram_wire_dq[8]
+set_location_assignment PIN_U3 -to sdram_wire_dq[7]
+set_location_assignment PIN_V1 -to sdram_wire_dq[6]
+set_location_assignment PIN_V2 -to sdram_wire_dq[5]
+set_location_assignment PIN_V3 -to sdram_wire_dq[4]
+set_location_assignment PIN_W1 -to sdram_wire_dq[3]
+set_location_assignment PIN_V4 -to sdram_wire_dq[2]
+set_location_assignment PIN_W2 -to sdram_wire_dq[1]
+set_location_assignment PIN_W3 -to sdram_wire_dq[0]
+set_location_assignment PIN_N8 -to sdram_wire_dqm[3]
+set_location_assignment PIN_K8 -to sdram_wire_dqm[2]
+set_location_assignment PIN_W4 -to sdram_wire_dqm[1]
+set_location_assignment PIN_U2 -to sdram_wire_dqm[0]
+set_location_assignment PIN_U6 -to sdram_wire_ras_n
+set_location_assignment PIN_V6 -to sdram_wire_we_n
+set_location_assignment PIN_E12 -to Red[0]
+set_location_assignment PIN_H10 -to Red[7]
+set_location_assignment PIN_H8 -to Red[6]
+set_location_assignment PIN_J12 -to Red[5]
+set_location_assignment PIN_G10 -to Red[4]
+set_location_assignment PIN_F12 -to Red[3]
+set_location_assignment PIN_D10 -to Red[2]
+set_location_assignment PIN_E11 -to Red[1]
+set_location_assignment PIN_AE5 -to sdram_clk
+set_location_assignment PIN_G4 -to OTG_DATA[15]
+set_location_assignment PIN_D5 -to OTG_INT
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY lab7_usb
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:03:25  AUGUST 21, 2014"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (SystemVerilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE lab7_usb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE HexDriver.sv
+set_global_assignment -name QIP_FILE usb_system/synthesis/usb_system.qip
+set_global_assignment -name IP_TOOL_NAME Qsys -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SOPCINFO_FILE usb_system/synthesis/../../usb_system.sopcinfo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SLD_INFO "QSYS_NAME usb_system HAS_SOPCINFO 1 GENERATION_ID 1412186228" -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name MISC_FILE usb_system/synthesis/../usb_system.cmp -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SLD_FILE usb_system/synthesis/usb_system.regmap -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SLD_FILE usb_system/synthesis/usb_system.debuginfo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TARGETED_DEVICE_FAMILY "Cyclone IV E" -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "\{Cyclone IV E\}" -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_QSYS_MODE UNKNOWN -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON -qip usb_system/synthesis/usb_system.qip
+set_global_assignment -name MISC_FILE usb_system/synthesis/../../usb_system.qsys -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbQ==" -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "dXNiX3N5c3RlbQ==" -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY ON -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION MS4w -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4=" -entity usb_system -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX3Jlc2V0X2NvbnRyb2xsZXI=" -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIFJlc2V0IENvbnRyb2xsZXI=" -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "Rm9yIHN5c3RlbXMgd2l0aCBtdWx0aXBsZSByZXNldCBpbnB1dHMsIHRoZSBNZXJsaW4gUmVzZXQgQ29udHJvbGxlciBPUnMgYWxsIHJlc2V0IGlucHV0cyBhbmQgZ2VuZXJhdGVzIGEgc2luZ2xlIHJlc2V0IG91dHB1dC4=" -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF" -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME YWx0ZXJhX2lycV9jbG9ja19jcm9zc2Vy -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVybGluIElSUSBDbG9jayBDcm9zc2Vy -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION U3luY2hyb25pemVzIGludGVycnVwdCBzZW5kZXJzIGFuZCByZWNlaXZlcnMgdGhhdCBhcmUgaW4gZGlmZmVyZW50IGNsb2NrIGRvbWFpbnMu -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19SRUNFSVZFUl9JTlRFUlJVUFRTX1VTRUQ=::LTE=::QXV0byBJTlRFUlJVUFRTX1VTRUQ=" -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9pcnFfbWFwcGVy -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIElSUSBNYXBwZXI=" -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Q29udmVydHMgaW5kaXZpZHVhbCBpbnRlcnJ1cHQgd2lyZXMgdG8gYSBidXMuIEJ5IGRlZmF1bHQsIHRoZSBpbnRlcnJ1cHQgc2VuZGVyIGNvbm5lY3RlZCB0byB0aGUgcmVjZWl2ZXIwIGludGVyZmFjZSBvZiB0aGUgSVJRIG1hcHBlciBpcyB0aGUgaGlnaGVzdCBwcmlvcml0eSB3aXRoIHNlcXVlbnRpYWwgcmVjZWl2ZXJzIGJlaWluZyBzdWNjZXNzaXZlbHkgbG93ZXIgcHJpb3JpdHku -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMQ==" -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TU0gSW50ZXJjb25uZWN0 -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL ON -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION TU0gSW50ZXJjb25uZWN0 -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UxMTVGMjlDNw==::QXV0byBERVZJQ0U=" -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME YWx0ZXJhX21lcmxpbl9zbGF2ZV90cmFuc2xhdG9y -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIE1NIFNsYXZlIFRyYW5zbGF0b3I=" -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Q29udmVydHMgdGhlIEF2YWxvbi1NTSBzbGF2ZSBpbnRlcmZhY2UgdG8gYSBzaW1wbGlmaWVkIHJlcHJlc2VudGF0aW9uIHRoYXQgdGhlIFFzeXMgbmV0d29yayB1c2VzLiBSZWZlciB0byB0aGUgQXZhbG9uIEludGVyZmFjZSBTcGVjaWZpY2F0aW9ucyAoaHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvbWFudWFsL21ubF9hdmFsb25fc3BlYy5wZGYpIGZvciBkZWZpbml0aW9ucyBvZiB0aGUgQXZhbG9uLU1NIHNpZ25hbHMgYW5kIGV4cGxhbmF0aW9ucyBvZiB0aGUgYnVyc3RpbmcgcHJvcGVydGllcyBhbmQgYWRkcmVzcyBhbGlnbm1lbnQu -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVZfREFUQV9IT0xEX0NZQ0xFUw==::MA==::QVZfREFUQV9IT0xEX0NZQ0xFUw==" -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX21lcmxpbl9tYXN0ZXJfdHJhbnNsYXRvcg==" -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uIE1NIE1hc3RlciBUcmFuc2xhdG9y -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Q29udmVydHMgdGhlIEF2YWxvbi1NTSBtYXN0ZXIgaW50ZXJmYWNlIHRvIGEgc2ltcGxlciByZXByZXNlbnRhdGlvbiB0aGF0IHRoZSBRc3lzIG5ldHdvcmsgdXNlcy4gUmVmZXIgdG8gdGhlIEF2YWxvbiBJbnRlcmZhY2UgU3BlY2lmaWNhdGlvbnMgKGh0dHA6Ly93d3cuYWx0ZXJhLmNvbS9saXRlcmF0dXJlL21hbnVhbC9tbmxfYXZhbG9uX3NwZWMucGRmKSBmb3IgZGVmaW5pdGlvbnMgb2YgdGhlIEF2YWxvbi1NTSBzaWduYWxzIGFuZCBleHBsYW5hdGlvbnMgb2YgdGhlIGJ1cnN0aW5nIHByb3BlcnRpZXMu -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMA==" -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TU0gSW50ZXJjb25uZWN0 -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL ON -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION TU0gSW50ZXJjb25uZWN0 -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UxMTVGMjlDNw==::QXV0byBERVZJQ0U=" -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9zdF9oYW5kc2hha2VfY2xvY2tfY3Jvc3Nlcg==" -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uLVNUIEhhbmRzaGFrZSBDbG9jayBDcm9zc2Vy -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL ON -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "Q29ubmVjdHMgc3RyZWFtcyB0aGF0IG9wZXJhdGUgYXQgZGlmZmVyZW50IGZyZXF1ZW5jaWUgdXNpbmcgYSBoYW5kLXNoYWtpbmcgcHJvdG9jb2wgdG8gcHJvcGFnYXRlIHRyYW5zZmVyIGNvbnRyb2wgc2lnbmFscyBhbmQgcmVzcG9uc2VzIGFjcm9zcyB0aGUgY2xvY2sgYm91bmRhcnkgYW5kIHJlc3BvbnNlcyBpbiB0aGUgb3RoZXIgZGlyZWN0aW9uLg==" -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yc3BfbXV4XzAwMQ==" -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yc3BfbXV4 -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yc3BfZGVtdXhfMDAz -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yc3BfZGVtdXg=" -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9jbWRfbXV4XzAwMw==" -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9jbWRfbXV4 -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9jbWRfZGVtdXhfMDAx -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9jbWRfZGVtdXg=" -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yb3V0ZXJfMDA1 -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yb3V0ZXJfMDAy -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yb3V0ZXJfMDAx -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9tbV9pbnRlcmNvbm5lY3RfMF9yb3V0ZXI=" -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME YWx0ZXJhX2F2YWxvbl9zY19maWZv -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uLVNUIFNpbmdsZSBDbG9jayBGSUZP -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX21lcmxpbl9zbGF2ZV9hZ2VudA==" -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uIE1NIFNsYXZlIEFnZW50 -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QWNjZXB0cyBjb21tYW5kIHBhY2tldHMgYW5kIGlzc3VlcyB0aGUgcmVzdWx0aW5nIHRyYW5zYWN0aW9ucyB0byB0aGUgQXZhbG9uIGludGVyZmFjZS4gUmVmZXIgdG8gdGhlIEF2YWxvbiBJbnRlcmZhY2UgU3BlY2lmaWNhdGlvbnMgKGh0dHA6Ly93d3cuYWx0ZXJhLmNvbS9saXRlcmF0dXJlL21hbnVhbC9tbmxfYXZhbG9uX3NwZWMucGRmKSBmb3IgZXhwbGFuYXRpb25zIG9mIHRoZSBidXJzdGluZyBwcm9wZXJ0aWVzLg==" -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "VVNFX1dSSVRFUkVTUE9OU0U=::MA==::VXNlIHdyaXRlcmVzcG9uc2U=" -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX21lcmxpbl9tYXN0ZXJfYWdlbnQ=" -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIE1NIE1hc3RlciBBZ2VudA==" -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION VHJhbnNsYXRlcyBBdmFsb24tTU0gbWFzdGVyIHRyYW5zYWN0aW9ucyBpbnRvIFFzeXMgY29tbWFuZCBwYWNrZXRzIGFuZCB0cmFuc2xhdGVzIHRoZSBRc3lzIEF2YWxvbi1NTSBzbGF2ZSByZXNwb25zZSBwYWNrZXRzIGludG8gQXZhbG9uLU1NIHJlc3BvbnNlcy4gUmVmZXIgdG8gdGhlIEF2YWxvbiBJbnRlcmZhY2UgU3BlY2lmaWNhdGlvbnMgKGh0dHA6Ly93d3cuYWx0ZXJhLmNvbS9saXRlcmF0dXJlL21hbnVhbC9tbmxfYXZhbG9uX3NwZWMucGRmKSBmb3IgYW4gZXhwbGFuYXRpb24gb2YgYnVyc3RpbmcgYmVoYXZpb3Iu -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9tbV9jbG9ja19jcm9zc2luZ19icmlkZ2U=" -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uLU1NIENsb2NrIENyb3NzaW5nIEJyaWRnZQ==" -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION VHJhbnNmZXJzIEF2YWxvbi1NTSBjb21tYW5kcyBhbmQgcmVzcG9uc2VzIGJldHdlZW4gYXN5bmNocm9ub3VzIGNsb2NrIGRvbWFpbnMgdXNpbmcgYXN5bmNocm9ub3VzIEZJRk9zIHRvIGltcGxlbWVudCB0aGUgY2xvY2sgY3Jvc3NpbmcgbG9naWMu -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME Q1k3QzY3MjAwX0lG -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME Q1k3QzY3MjAwX0lG -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR "UGVsaQ==" -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION MS4w -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Y3k3YzY3MjAwIGhwaSBjb250cm9sbGVy -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTE9DS19TSU5LX0NMT0NLX1JBVEU=::MTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity CY7C67200_IF -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME dXNiX3N5c3RlbV9rZXljb2Rl -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME UElPIChQYXJhbGxlbCBJL08p -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::ZmFsc2U=::ZGVyaXZlZF9oYXNfaXJx" -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9jbG9ja3M=" -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIEFMVFBMTA==" -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXZhbG9uLWNvbXBhdGlibGUgQWx0ZXJhIFBMTCBtb2R1bGUuIEZvciBTdHJhdGl4IFYgYW5kIG5ld2VyIGZhbWlsaWVzLCB1c2UgQWx0ZXJhIFBMTA==" -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ" -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9jcHU=" -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TmlvcyBJSSBQcm9jZXNzb3I=" -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWx0ZXJhIE5pb3MgSUkgUHJvY2Vzc29y -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGV2aWNlRmVhdHVyZXNTeXN0ZW1JbmZv::QUREUkVTU19TVEFMTCAxIEFEVkFOQ0VEX0lORk8gMCBBTExPV1NfQ09NUElMSU5HX09USEVSX0ZBTUlMWV9JUCAxIEFOWV9RRlAgMCBDRUxMX0xFVkVMX0JBQ0tfQU5OT1RBVElPTl9ESVNBQkxFRCAwIENPTVBJTEVSX1NVUFBPUlQgMSBEU1AgMCBEU1BfU0hJRlRFUl9CTE9DSyAwIERVTVBfQVNNX0xBQl9CSVRTX0ZPUl9QT1dFUiAxIEVNVUwgMSBFTkFCTEVfQURWQU5DRURfSU9fQU5BTFlTSVNfR1VJX0ZFQVRVUkVTIDEgRU5BQkxFX1BJTl9QTEFOTkVSIDAgRU5HSU5FRVJJTkdfU0FNUExFIDAgRVBDUyAxIEVTQiAwIEZBS0UxIDAgRkFLRTIgMCBGQUtFMyAwIEZBTUlMWV9MRVZFTF9JTlNUQUxMQVRJT05fT05MWSAxIEZBU1RFU1QgMCBGSU5BTF9USU1JTkdfTU9ERUwgMCBGSVRURVJfVVNFX0ZBTExJTkdfRURHRV9ERUxBWSAwIEdFTkVSQVRFX0RDX09OX0NVUlJFTlRfV0FSTklOR19GT1JfSU5URVJOQUxfQ0xBTVBJTkdfRElPREUgMCBIQVJEQ09QWSAwIEhBU18xOF9CSVRfTVVMVFMgMCBIQVNfQUNFX1NVUFBPUlQgMSBIQVNfQUNUSVZFX1BBUkFMTEVMX0ZMQVNIX1NVUFBPUlQgMCBIQVNfQURKVVNUQUJMRV9PVVRQVVRfSU9fVElNSU5HX01FQVNfUE9JTlQgMCBIQVNfQURWQU5DRURfSU9fSU5WRVJURURfQ09STkVSIDAgSEFTX0FEVkFOQ0VEX0lPX1BPV0VSX1NVUFBPUlQgMSBIQVNfQURWQU5DRURfSU9fVElNSU5HX1NVUFBPUlQgMSBIQVNfQUxNX1NVUFBPUlQgMCBIQVNfQVRPTV9BTkRfUk9VVElOR19QT1dFUl9NT0RFTEVEX1RPR0VUSEVSIDAgSEFTX0FVVE9fREVSSVZFX0NMT0NLX1VOQ0VSVEFJTlRZX1NVUFBPUlQgMCBIQVNfQVVUT19GSVRfU1VQUE9SVCAxIEhBU19CQUxBTkNFRF9PUFRfVEVDSE5JUVVFX1NVUFBPUlQgMSBIQVNfQkVORUZJQ0lBTF9TS0VXX1NVUFBPUlQgMSBIQVNfQklUTEVWRUxfRFJJVkVfU1RSRU5HVEhfQ09OVFJPTCAxIEhBU19CU0RMX0ZJTEVfR0VORVJBVElPTiAxIEhBU19DREJfUkVfTkVUV09SS19QUkVTRVJWQVRJT05fU1VQUE9SVCAwIEhBU19DR0FfU1VQUE9SVCAxIEhBU19DSEVDS19ORVRMSVNUX1NVUFBPUlQgMCBIQVNfQ0xPQ0tfUkVHSU9OX0NIRUNLRVJfRU5BQkxFRCAxIEhBU19DT1JFX0pVTkNUSU9OX1RFTVBfREVSQVRJTkcgMCBIQVNfQ1JPU1NUQUxLX1NVUFBPUlQgMCBIQVNfQ1VTVE9NX1JFR0lPTl9TVVBQT1JUIDEgSEFTX0RBUF9KVEFHX0ZST01fSFBTIDAgSEFTX0RBVEFfRFJJVkVOX0FDVlFfSFNTSV9TVVBQT1JUIDAgSEFTX0REQl9GRElfU1VQUE9SVCAwIEhBU19ERVNJR05fQU5BTFlaRVJfU1VQUE9SVCAxIEhBU19ERVRBSUxFRF9JT19SQUlMX1BPV0VSX01PREVMIDEgSEFTX0RFVEFJTEVEX0xFSU1fU1RBVElDX1BPV0VSX01PREVMIDEgSEFTX0RFVEFJTEVEX0xFX1BPV0VSX01PREVMIDEgSEFTX0RFVEFJTEVEX1JPVVRJTkdfTVVYX1NUQVRJQ19QT1dFUl9NT0RFTCAxIEhBU19ERVRBSUxFRF9USEVSTUFMX0NJUkNVSVRfUEFSQU1FVEVSX1NVUFBPUlQgMSBIQVNfREVWSUNFX01JR1JBVElPTl9TVVBQT1JUIDEgSEFTX0RJQUdPTkFMX01JR1JBVElPTl9TVVBQT1JUIDAgSEFTX0VNSUZfVE9PTEtJVF9TVVBQT1JUIDAgSEFTX0VSUk9SX0RFVEVDVElPTl9TVVBQT1JUIDAgSEFTX0ZBTUlMWV9WQVJJQU5UX01JR1JBVElPTl9TVVBQT1JUIDAgSEFTX0ZBTk9VVF9GUkVFX05PREVfU1VQUE9SVCAxIEhBU19GQVNUX0ZJVF9TVVBQT1JUIDEgSEFTX0ZJVFRFUl9FQVJMWV9USU1JTkdfRVNUSU1BVEVfU1VQUE9SVCAxIEhBU19GSVRURVJfRUNPX1NVUFBPUlQgMSBIQVNfRklUX05FVExJU1RfT1BUX1JFVElNRV9TVVBQT1JUIDEgSEFTX0ZJVF9ORVRMSVNUX09QVF9TVVBQT1JUIDEgSEFTX0ZPUk1BTF9WRVJJRklDQVRJT05fU1VQUE9SVCAxIEhBU19GUEdBX1hDSEFOR0VfU1VQUE9SVCAxIEhBU19GU0FDX0xVVFJBTV9SRUdJU1RFUl9QQUNLSU5HX1NVUFBPUlQgMCBIQVNfRlVMTF9EQVRfTUlOX1RJTUlOR19TVVBQT1JUIDEgSEFTX0ZVTExfSU5DUkVNRU5UQUxfREVTSUdOX1NVUFBPUlQgMSBIQVNfRlVOQ1RJT05BTF9TSU1VTEFUSU9OX1NVUFBPUlQgMSBIQVNfRlVOQ1RJT05BTF9WRVJJTE9HX1NJTVVMQVRJT05fU1VQUE9SVCAwIEhBU19GVU5DVElPTkFMX1ZIRExfU0lNVUxBVElPTl9TVVBQT1JUIDAgSEFTX0dMSVRDSF9GSUxURVJJTkdfU1VQUE9SVCAxIEhBU19IQVJEQ09QWUlJX1NVUFBPUlQgMCBIQVNfSENfUkVBRFlfU1VQUE9SVCAwIEhBU19ISUdIX1NQRUVEX0xPV19QT1dFUl9USUxFX1NVUFBPUlQgMCBIQVNfSE9MRF9USU1FX0FWT0lEQU5DRV9BQ1JPU1NfQ0xPQ0tfU1BJTkVfU1VQUE9SVCAxIEhBU19IU1BJQ0VfV1JJVEVSX1NVUFBPUlQgMSBIQVNfSFNTSV9QT1dFUl9DQUxDVUxBVE9SIDAgSEFTX0lCSVNPX1dSSVRFUl9TVVBQT1JUIDAgSEFTX0lDRF9EQVRBX0lQIDAgSEFTX0lOQ1JFTUVOVEFMX0RBVF9TVVBQT1JUIDEgSEFTX0lOQ1JFTUVOVEFMX1NZTlRIRVNJU19TVVBQT1JUIDEgSEFTX0lOVEVSRkFDRV9QTEFOTkVSX1NVUFBPUlQgMCBIQVNfSU9fQVNTSUdOTUVOVF9BTkFMWVNJU19TVVBQT1JUIDEgSEFTX0lPX0RFQ09ERVIgMCBIQVNfSU9fUExBQ0VNRU5UX09QVElNSVpBVElPTl9TVVBQT1JUIDEgSEFTX0lPX1NNQVJUX1JFQ09NUElMRV9TVVBQT1JUIDAgSEFTX0pJVFRFUl9TVVBQT1JUIDEgSEFTX0pUQUdfU0xEX0hVQl9TVVBQT1JUIDEgSEFTX0xJTUlURURfVENMX0ZJVFRFUl9TVVBQT1JUIDAgSEFTX0xPR0lDQUxfRkxPT1JQTEFOTkVSX1NVUFBPUlQgMCBIQVNfTE9HSUNfTE9DS19TVVBQT1JUIDEgSEFTX01JQ1JPUFJPQ0VTU09SIDAgSEFTX01JRl9TTUFSVF9DT01QSUxFX1NVUFBPUlQgMSBIQVNfTUlOTUFYX1RJTUlOR19NT0RFTElOR19TVVBQT1JUIDEgSEFTX01JTl9USU1JTkdfQU5BTFlTSVNfU1VQUE9SVCAxIEhBU19NVVhfUkVTVFJVQ1RVUkVfU1VQUE9SVCAxIEhBU19ORVdfSENfRkxPV19TVVBQT1JUIDAgSEFTX05FV19TRVJERVNfTUFYX1JFU09VUkNFX0NPVU5UX1JFUE9SVElOR19TVVBQT1JUIDEgSEFTX05FV19WUFJfU1VQUE9SVCAxIEhBU19OT05TT0NLRVRfVEVDSE5PTE9HWV9NSUdSQVRJT05fU1VQUE9SVCAwIEhBU19OT19IQVJEQkxPQ0tfUEFSVElUSU9OX1NVUFBPUlQgMCBIQVNfTk9fSlRBR19VU0VSQ09ERV9TVVBQT1JUIDAgSEFTX09QRVJBVElOR19TRVRUSU5HU19BTkRfQ09ORElUSU9OU19SRVBPUlRJTkdfU1VQUE9SVCAxIEhBU19QQURfTE9DQVRJT05fQVNTSUdOTUVOVF9TVVBQT1JUIDAgSEFTX1BBUlRJQUxfUkVDT05GSUdfU1VQUE9SVCAwIEhBU19QQVNTSVZFX1BBUkFMTEVMX1NVUFBPUlQgMCBIQVNfUEhZU0lDQUxfREVTSUdOX1BMQU5ORVJfU1VQUE9SVCAwIEhBU19QSFlTSUNBTF9ORVRMSVNUX09VVFBVVCAwIEhBU19QSFlTSUNBTF9ST1VUSU5HX1NVUFBPUlQgMCBIQVNfUElOX1NQRUNJRklDX1ZPTFRBR0VfU1VQUE9SVCAxIEhBU19QTERNX1JFRl9TVVBQT1JUIDEgSEFTX1BPV0VSX0JJTk5JTkdfTElNSVRTX0RBVEEgMCBIQVNfUE9XRVJfRVNUSU1BVElPTl9TVVBQT1JUIDEgSEFTX1BSRUxJTUlOQVJZX0NMT0NLX1VOQ0VSVEFJTlRZX05VTUJFUlMgMCBIQVNfUFJFX0ZJVFRFUl9GUFBfU1VQUE9SVCAwIEhBU19QUkVfRklUVEVSX0xVVFJBTV9ORVRMSVNUX0NIRUNLRVJfRU5BQkxFRCAwIEhBU19QVkFfU1VQUE9SVCAxIEhBU19SQVBJRF9SRUNPTVBJTEVfU1VQUE9SVCAwIEhBU19SQ0ZfU1VQUE9SVCAxIEhBU19SQ0ZfU1VQUE9SVF9GT1JfREVCVUdHSU5HIDAgSEFTX1JFRF9CTEFDS19TRVBBUkFUSU9OX1NVUFBPUlQgMCBIQVNfUkVfTEVWRUxfVElNSU5HX0dSQVBIX1NVUFBPUlQgMSBIQVNfUklTRUZBTExfREVMQVlfU1VQUE9SVCAxIEhBU19TSUdOQUxfUFJPQkVfU1VQUE9SVCAxIEhBU19TSUdOQUxfVEFQX1NVUFBPUlQgMSBIQVNfU0lNVUxBVE9SX1NVUFBPUlQgMCBIQVNfU1BMSVRfSU9fU1VQUE9SVCAxIEhBU19TUExJVF9MQ19TVVBQT1JUIDEgSEFTX1NUUklDVF9QUkVTRVJWQVRJT05fU1VQUE9SVCAxIEhBU19TWU5USF9GU1lOX05FVExJU1RfT1BUX1NVUFBPUlQgMSBIQVNfU1lOVEhfTkVUTElTVF9PUFRfUkVUSU1FX1NVUFBPUlQgMSBIQVNfU1lOVEhfTkVUTElTVF9PUFRfU1VQUE9SVCAxIEhBU19UQ0xfRklUVEVSX1NVUFBPUlQgMCBIQVNfVEVDSE5PTE9HWV9NSUdSQVRJT05fU1VQUE9SVCAwIEhBU19URU1QTEFURURfUkVHSVNURVJfUEFDS0lOR19TVVBQT1JUIDEgSEFTX1RJTUVfQk9SUk9XSU5HX1NVUFBPUlQgMCBIQVNfVElNSU5HX0RSSVZFTl9TWU5USEVTSVNfU1VQUE9SVCAxIEhBU19USU1JTkdfSU5GT19TVVBQT1JUIDEgSEFTX1RJTUlOR19PUEVSQVRJTkdfQ09ORElUSU9OUyAxIEhBU19USU1JTkdfU0lNVUxBVElPTl9TVVBQT1JUIDEgSEFTX1RJVEFOX0JBU0VEX01BQ19SRUdJU1RFUl9QQUNLRVJfU1VQUE9SVCAwIEhBU19VMkIyX1NVUFBPUlQgMCBIQVNfVVNFUl9ISUdIX1NQRUVEX0xPV19QT1dFUl9USUxFX1NVUFBPUlQgMCBIQVNfVVNFX0ZJVFRFUl9JTkZPX1NVUFBPUlQgMSBIQVNfVkNDUERfUE9XRVJfUkFJTCAwIEhBU19WRVJUSUNBTF9NSUdSQVRJT05fU1VQUE9SVCAxIEhBU19WSUVXRFJBV19TWU1CT0xfU1VQUE9SVCAwIEhBU19WSU9fU1VQUE9SVCAxIEhBU19WSVJUVUFMX0RFVklDRVMgMCBIQVNfV1lTSVdZR19ERkZFQVNfU1VQUE9SVCAxIEhBU19YSUJJU09fV1JJVEVSX1NVUFBPUlQgMSBJRlBfVVNFX0xFR0FDWV9JT19DSEVDS0VSIDAgSU5DUkVNRU5UQUxfREVTSUdOX1NVUFBPUlRTX0NPTVBBVElCTEVfQ09OU1RSQUlOVFMgMSBJTlNUQUxMRUQgMCBJTlRFUk5BTF9QT0ZfU1VQUE9SVF9FTkFCTEVEIDAgSU5URVJOQUxfVVNFX09OTFkgMCBJU1NVRV9NSUxJVEFSWV9URU1QRVJBVFVSRV9XQVJOSU5HIDAgSVNfQ09ORklHX1JPTSAwIElTX0RFRkFVTFRfRkFNSUxZIDAgSVNfSEFSRENPUFlfRkFNSUxZIDAgSVNfSEJHQV9QQUNLQUdFIDAgSVNfSElHSF9DVVJSRU5UX1BBUlQgMCBJU19MT1dfUE9XRVJfUEFSVCAwIElTX1NETV9PTkxZX1BBQ0tBR0UgMCBMVkRTX0lPIDEgTTEwS19NRU1PUlkgMCBNMTQ0S19NRU1PUlkgMCBNMjBLX01FTU9SWSAwIE00S19NRU1PUlkgMCBNNTEyX01FTU9SWSAwIE05S19NRU1PUlkgMSBNTEFCX01FTU9SWSAwIE1SQU1fTUVNT1JZIDAgTk9UX0xJU1RFRCAwIE5PVF9NSUdSQVRBQkxFIDAgTk9fRklUVEVSX0RFTEFZX0NBQ0hFX0dFTkVSQVRFRCAwIE5PX1BJTl9PVVQgMCBOT19QT0YgMCBOT19SUEVfU1VQUE9SVCAwIE5PX1NVUFBPUlRfRk9SX0xPR0lDTE9DS19DT05URU5UX0JBQ0tfQU5OT1RBVElPTiAxIE5PX1NVUFBPUlRfRk9SX1NUQV9DTE9DS19VTkNFUlRBSU5UWV9DSEVDSyAwIE5PX1REQ19TVVBQT1JUIDAgUE9TVEZJVF9CQUtfREFUQUJBU0VfRVhQT1JUX0VOQUJMRUQgMSBQT1NUTUFQX0JBS19EQVRBQkFTRV9FWFBPUlRfRU5BQkxFRCAxIFBST0dSQU1NRVJfU1VQUE9SVCAxIFBWQV9TVVBQT1JUU19PTkxZX1NVQlNFVF9PRl9BVE9NUyAwIFFGSVRfSU5fREVWRUxPUE1FTlQgMCBRTUFQX0lOX0RFVkVMT1BNRU5UIDAgUkFNX0xPR0lDQUxfTkFNRV9DSEVDS0lOR19JTl9DVVRfRU5BQkxFRCAxIFJFUE9SVFNfTUVUQVNUQUJJTElUWV9NVEJGIDEgUkVRVUlSRVNfSU5TVEFMTEFUSU9OX1BBVENIIDAgUkVRVUlSRVNfTElTVF9PRl9URU1QRVJBVFVSRV9BTkRfVk9MVEFHRV9PUEVSQVRJTkdfQ09ORElUSU9OUyAxIFJFU0VSVkVTX1NJR05BTF9QUk9CRV9QSU5TIDAgUkVTT0xWRV9NQVhfRkFOT1VUX0VBUkxZIDEgUkVTT0xWRV9NQVhfRkFOT1VUX0xBVEUgMCBSRVNQRUNUU19GSVhFRF9TSVpFRF9MT0NLRURfTE9DQVRJT05fTE9HSUNMT0NLIDEgUkVTVFJJQ1RFRF9VU0VSX1NFTEVDVElPTiAwIFJJU0VGQUxMX1NVUFBPUlRfSVNfSElEREVOIDAgU0hPV19ISURERU5fRkFNSUxZX0lOX1BST0dSQU1NRVIgMCBTVFJJQ1RfVElNSU5HX0RCX0NIRUNLUyAwIFNVUFBPUlRTX0FERElUSU9OQUxfT1BUSU9OU19GT1JfVU5VU0VEX0lPIDAgU1VQUE9SVFNfQ1JDIDEgU1VQUE9SVFNfRElGRkVSRU5USUFMX0FJT1RfQk9BUkRfVFJBQ0VfTU9ERUwgMSBTVVBQT1JUU19EU1BfQkFMQU5DSU5HX0JBQ0tfQU5OT1RBVElPTiAwIFNVUFBPUlRTX0dFTkVSQVRJT05fT0ZfRUFSTFlfUE9XRVJfRVNUSU1BVE9SX0ZJTEUgMSBTVVBQT1JUU19HTE9CQUxfU0lHTkFMX0JBQ0tfQU5OT1RBVElPTiAwIFNVUFBPUlRTX0hJUElfUkVUSU1JTkcgMCBTVVBQT1JUU19NQUNfQ0hBSU5fT1VUX0FEREVSIDAgU1VQUE9SVFNfUkFNX1BBQ0tJTkdfQkFDS19BTk5PVEFUSU9OIDAgU1VQUE9SVFNfUkVHX1BBQ0tJTkdfQkFDS19BTk5PVEFUSU9OIDAgU1VQUE9SVFNfU0lHTkFMUFJPQkVfUkVHSVNURVJfUElQRUxJTklORyAxIFNVUFBPUlRTX1NJTkdMRV9FTkRFRF9BSU9UX0JPQVJEX1RSQUNFX01PREVMIDEgU1VQUE9SVFNfVVNFUl9NQU5VQUxfTE9HSUNfRFVQTElDQVRJT04gMSBUTVZfUlVOX0NVU1RPTUlaQUJMRV9WSUVXRVIgMSBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFMgMSBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fSU8gMCBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fSU9CVUYgMSBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fTENFTEwgMCBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fTFJBTSAwIFRSQU5TQ0VJVkVSXzNHX0JMT0NLIDAgVFJBTlNDRUlWRVJfNkdfQkxPQ0sgMCBVU0VTX0FDVl9GT1JfRkxFRCAxIFVTRVNfQURCX0ZPUl9CQUNLX0FOTk9UQVRJT04gMSBVU0VTX0FMVEVSQV9MTlNJTSAwIFVTRVNfQVNJQ19ST1VUSU5HX1BPV0VSX0NBTENVTEFUT1IgMCBVU0VTX0RBVEFfRFJJVkVOX1BMTF9DT01QVVRBVElPTl9VVElMIDEgVVNFU19ERVYgMSBVU0VTX0lDUF9GT1JfRUNPX0ZJVFRFUiAwIFVTRVNfTElCRVJUWV9USU1JTkcgMCBVU0VTX05FVFdPUktfUk9VVElOR19QT1dFUl9DQUxDVUxBVE9SIDAgVVNFU19QT1dFUl9TSUdOQUxfQUNUSVZJVElFUyAxIFVTRVNfUFZBRkFNMiAwIFVTRVNfVEhJUkRfR0VORVJBVElPTl9USU1JTkdfTU9ERUxTX1RJUyAxIFVTRVNfVTJCMl9USU1JTkdfTU9ERUxTIDAgVVNFU19YTUxfRk9STUFUX0ZPUl9FTUlGX1BJTl9NQVBfRklMRSAwIFVTRV9BRFZBTkNFRF9JT19QT1dFUl9CWV9ERUZBVUxUIDEgVVNFX0FEVkFOQ0VEX0lPX1RJTUlOR19CWV9ERUZBVUxUIDEgVVNFX0JBU0VfRkFNSUxZX0REQl9QQVRIIDAgVVNFX09DVF9BVVRPX0NBTElCUkFUSU9OIDEgVVNFX1JFTEFYX0lPX0FTU0lHTk1FTlRfUlVMRVMgMCBVU0VfUklTRUZBTExfT05MWSAxIFVTRV9TRVBBUkFURV9MSVNUX0ZPUl9URUNIX01JR1JBVElPTiAwIFVTRV9TSU5HTEVfQ09NUElMRVJfUEFTU19QTExfTUlGX0ZJTEVfV1JJVEVSIDEgVVNFX1RJVEFOX0lPX0JBU0VEX0lPX1JFR0lTVEVSX1BBQ0tFUl9VVElMIDAgVVNJTkdfMjhOTV9PUl9PTERFUl9USU1JTkdfTUVUSE9ET0xPR1kgMSBXWVNJV1lHX0JVU19XSURUSF9DSEVDS0lOR19JTl9DVVRfRU5BQkxFRCAx::ZGV2aWNlRmVhdHVyZXNTeXN0ZW1JbmZv" -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9qdGFnX3VhcnQ=" -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME SlRBRyBVQVJU -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZW5hYmxlSW50ZXJhY3RpdmVPdXRwdXQ=::ZmFsc2U=::ZW5hYmxlSW50ZXJhY3RpdmVPdXRwdXQ=" -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_NAME "dXNiX3N5c3RlbV9zZHJhbQ==" -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "U0RSQU0gQ29udHJvbGxlcg==" -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_COMPONENT_PARAMETER "YmFua1dpZHRo::Mg==::YmFua1dpZHRo" -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/usb_system.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/altera_reset_controller.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/altera_reset_synchronizer.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SDC_FILE usb_system/synthesis/submodules/altera_reset_controller.sdc -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_irq_clock_crosser.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_irq_mapper.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_merlin_slave_translator.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_merlin_master_translator.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_avalon_st_clock_crosser.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_avalon_st_pipeline_base.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_merlin_arbitrator.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux_001.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux_003.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux_003.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux_001.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_005.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_002.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_001.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/altera_avalon_sc_fifo.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_merlin_slave_agent.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE usb_system/synthesis/submodules/altera_merlin_master_agent.sv -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/altera_avalon_dc_fifo.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/CY7C67200_IF.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_keycode.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_clocks.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SDC_FILE usb_system/synthesis/submodules/usb_system_cpu.sdc -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_cpu.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SOURCE_FILE usb_system/synthesis/submodules/usb_system_cpu_ociram_default_contents.mif -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SOURCE_FILE usb_system/synthesis/submodules/usb_system_cpu_rf_ram_a.mif -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SOURCE_FILE usb_system/synthesis/submodules/usb_system_cpu_rf_ram_b.mif -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_cpu_test_bench.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_jtag_uart.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name VERILOG_FILE usb_system/synthesis/submodules/usb_system_sdram.v -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_reset_controller -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_reset_controller -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_irq_clock_crosser -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_irq_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_irq_mapper -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_irq_mapper -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_mm_interconnect -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_1 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_slave_translator -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_slave_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_master_translator -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_master_translator -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_mm_interconnect -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_avalon_st_handshake_clock_crosser -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_avalon_st_handshake_clock_crosser -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_rsp_mux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_rsp_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_rsp_demux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_rsp_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_cmd_mux_003 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_cmd_mux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_cmd_demux_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_cmd_demux -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_router_005 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_router_002 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_router_001 -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_mm_interconnect_0_router -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_avalon_sc_fifo -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_avalon_sc_fifo -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_slave_agent -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_slave_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_merlin_master_agent -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_master_agent -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_avalon_mm_clock_crossing_bridge -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_avalon_mm_clock_crossing_bridge -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_avalon_pio -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_keycode -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altpll -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_clocks -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_nios2_qsys -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_cpu -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_avalon_jtag_uart -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_jtag_uart -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_NAME altera_avalon_new_sdram_controller -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name IP_TOOL_ENV Qsys -entity usb_system_sdram -qip usb_system/synthesis/usb_system.qip -library usb_system
+set_global_assignment -name SYSTEMVERILOG_FILE VGA_controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Color_Mapper.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ball.sv
+set_global_assignment -name SYSTEMVERILOG_FILE keybuffer.sv

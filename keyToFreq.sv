@@ -1,7 +1,7 @@
 module keyToNote (input clk,
 						input [7:0]keycode,
-						output [8:0]noteStream,
-						output octaveChange);
+						output [5:0]notestr,
+						output [1:0]octaveChange);
 
 logic [5:0] notes;						
 always @(posedge clk)
@@ -61,7 +61,7 @@ case(keycode)
 	 end
 15	:begin
 	 notes = 6'd14;     //'L' = Octave++
-	 octaveChange = 1;
+	 octaveChange = 2;
 	 end
 default: 
 	begin
@@ -70,7 +70,7 @@ default:
 	end
 endcase
 
-assign noteStream = {3'd4,notes};
+assign notestr = notes;
 
 
 

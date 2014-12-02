@@ -1,0 +1,18 @@
+# system info oscillator on 2014.11.30.16:42:00
+system_info:
+name,value
+DEVICE,EP4CE115F29C7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1417383719
+#
+#
+# Files generated for oscillator on 2014.11.30.16:42:00
+files:
+filepath,kind,attributes,module,is_top
+simulation/oscillator.v,VERILOG,,oscillator,true
+simulation/submodules/oscillator_int_osc_0.v,VERILOG,,oscillator_int_osc_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+oscillator.int_osc_0,oscillator_int_osc_0

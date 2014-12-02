@@ -1,0 +1,10 @@
+module NoteStreamGen	(input 	clk,reset,octaveChange,
+						 input   [8:0]NoteStream1_in,
+						 input   [8:0]NoteStream2_in,
+						 output  [8:0]NoteStream1_out,
+						 output  [8:0]NoteStream2_out);
+always @ (posedge clk or negedge reset)
+begin
+if(!reset)
+	begin
+	

@@ -1,0 +1,966 @@
+m255
+K3
+13
+cModel Technology
+Z0 dJ:\ECE385\Music_Synthesizer\simulation\modelsim
+valtera_avalon_dc_fifo
+IfdWC]9Z<foMA2LNa_SAAC2
+VZUPMFz?KzgYeJJhUEZ1JV2
+Z1 dJ:\ECE385\Music_Synthesizer\simulation\modelsim
+Z2 w1412182644
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v
+L0 13
+Z3 OV;L;10.1e;51
+r1
+31
+Z4 o-vlog01compat -work usb_system -O0
+Z5 !s92 -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules -O0
+!i10b 1
+!s100 5fXg<aM5?^Jkk]6WghDo@1
+!s85 0
+!s108 1417535823.544000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v|
+!s101 -O0
+valtera_avalon_mm_clock_crossing_bridge
+I4Fc?DZ=;V6D;ff7fzbNm13
+VY<=b61mdCWG@f4=iRWf<73
+R1
+R2
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v
+L0 30
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 e[A1LiQUUaMFN<Y?I_PSG1
+!s85 0
+!s108 1417535823.294000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v|
+!s101 -O0
+valtera_avalon_sc_fifo
+IFid:lYDC=^EMM^>JjX65d2
+VjOzUMS5nAQIa6?lLKEfID0
+R1
+w1411969432
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 i9>58K7f_TDn??^3HZMhJ0
+!s85 0
+!s108 1417535823.043000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s101 -O0
+valtera_dcfifo_synchronizer_bundle
+I8T?eDIUUckESbgLd5;E>?3
+Vj>T>Y6nGjcX>R_6B^<M_z0
+R1
+R2
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v
+L0 8
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 d1^9XjO8H_G`nbV4Q>:@k3
+!s85 0
+!s108 1417535823.756000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v|
+!s101 -O0
+valtera_reset_controller
+IG>OkjJAakX3>FjNm1WXaS2
+Vd6XZeNR]PniX]Sml3E;hm2
+R1
+Z6 w1412182646
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v
+L0 42
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 D0glen[72@R@TY<@GFzSI2
+!s85 0
+!s108 1417535821.665000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v|
+!s101 -O0
+valtera_reset_synchronizer
+I9P]^AOYI^TFClOn4FzmQY2
+V3CjoOZCIEdzCJgPn8]D7`2
+R1
+R6
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 kVRFP;KkYQb5AmnQ6WERc0
+!s85 0
+!s108 1417535822.276000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s101 -O0
+vCY7C67200_IF
+IjABIP1Xdj>ImVKZbkgZBZ2
+V::k4la3CMMFD]j?loj8141
+R1
+R2
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@c@y7@c67200_@i@f
+!i10b 1
+!s100 fIlhbj:dUIbOlieHCOo2F3
+!s85 0
+!s108 1417535823.904000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v|
+!s101 -O0
+vusb_system
+IMgOIFY[;gZT7^X?=0eG3o1
+VRNJl2T0Se<GmC;NbN:=d>1
+R1
+w1412182632
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/usb_system.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/usb_system.v
+L0 6
+R3
+r1
+31
+R4
+!i10b 1
+!s100 6kd2cCJJ^AlfL_WWXHoES0
+!s85 0
+!s108 1417535821.414000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/usb_system.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/usb_system.v|
+!s101 -O0
+!s92 -vlog01compat -work usb_system +incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis -O0
+vusb_system_clocks
+Ijz48kolMl2nbZP>?JPX?Z0
+VbO`FQ_HA6L6YD0Fc`[PQN0
+R1
+R2
+Z7 8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v
+Z8 FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v
+L0 218
+R3
+r1
+31
+Z9 !s108 1417535824.216000
+Z10 !s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v|
+Z11 !s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v|
+R4
+R5
+!i10b 1
+!s100 ZWcMFjKUdDXh=;HcE1ijJ0
+!s85 0
+!s101 -O0
+vusb_system_clocks_altpll_pqa2
+IF[H6E1U7<G^ZM7D;[S8iJ1
+VHzela_H^De[LHPTCi;;^=1
+R1
+R2
+R7
+R8
+L0 131
+R3
+r1
+31
+R9
+R10
+R11
+R4
+R5
+!i10b 1
+!s100 ;]K]I:Kf5C[^Yj055YfAL0
+!s85 0
+!s101 -O0
+vusb_system_clocks_dffpipe_l2c
+IeoOjc3;RYol[e7C[JoW@T0
+VM:1IVLF8>o`0>Q1K`7C1J0
+R1
+R2
+R7
+R8
+L0 38
+R3
+r1
+31
+R9
+R10
+R11
+R4
+R5
+!i10b 1
+!s100 HA?z:9IIE>fJ3ISe@K?Tf1
+!s85 0
+!s101 -O0
+vusb_system_clocks_stdsync_sv6
+I5JcIWIel8bJ7Gkhb2n7>k2
+VNTbAHnm6oENhDJzf3>G@o2
+R1
+R2
+R7
+R8
+L0 99
+R3
+r1
+31
+R9
+R10
+R11
+R4
+R5
+!i10b 1
+!s100 B?ASOK@HkmEbGUVN<6QPL2
+!s85 0
+!s101 -O0
+vusb_system_cpu
+I6?g;FWOe[Xfl9@KMbiPnL1
+V?8:CPm5a4NmmSU3ME@f]H2
+R1
+Z12 w1412182640
+Z13 8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v
+Z14 FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v
+L0 3166
+R3
+r1
+31
+Z15 !s108 1417535824.645000
+Z16 !s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v|
+R4
+R5
+!i10b 1
+!s100 0e<md3U^n07Po;5iz:kZA3
+!s85 0
+!s101 -O0
+vusb_system_cpu_jtag_debug_module_sysclk
+IkGL2J=Oc5fi3E=0O?FL3M0
+VI:OmdJQAORPHT?V_JOZ<J1
+R1
+R12
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Z@5L?V>S6<n2;O6bJ^7@S3
+!s85 0
+!s108 1417535826.273000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v|
+!s101 -O0
+vusb_system_cpu_jtag_debug_module_tck
+IcPbRmf7GLIhn?Dg8J0gbQ3
+VE>M7V`ec^lGN6fPMPgf1R1
+R1
+R12
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 jTLk`o>AYND[7F7a^0=iN3
+!s85 0
+!s108 1417535826.521000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v|
+!s101 -O0
+vusb_system_cpu_jtag_debug_module_wrapper
+IWea0W?AjG2<U[chnz@eYl1
+VY@FPV2XI?Y0>@DI1IBchQ2
+R1
+R12
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 FY5dD^i1`MHfLdH`;5VJN1
+!s85 0
+!s108 1417535826.708000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v|
+!s101 -O0
+vusb_system_cpu_nios2_avalon_reg
+I?5e`7FBH8@GkTLWNgZQjM2
+VdAk:n65RkPkPo=b<8NWT]1
+R1
+R12
+R13
+R14
+L0 536
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 gM?ez[d_fR;Gm79k8_0b`2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci
+IH?5OmjIH6kd_KGUV74_O82
+V17CnWePPCPc63`odOeJWa2
+R1
+R12
+R13
+R14
+L0 2658
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 W0dg[miNniehL@n<k;e^30
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_break
+I_=?IF9_RBf6`>>m6gb]?@1
+V^;b0mfXg7@ab5h<g@fBBQ1
+R1
+R12
+R13
+R14
+L0 628
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 BMlXBJa:8K3a@;c^_BJ9W1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_compute_input_tm_cnt
+IIQ=[2`4J<IFMGRGzJVL;m1
+V2[oX6JULCZghcU4G8UoLl2
+R1
+R12
+R13
+R14
+L0 1798
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 X1UYV4AUaDl5<fnlF4[1m1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_dbrk
+IW81kSUc_^n?hHgo0L<DQ?3
+VA`W:8WeRMJH6PMSDiDHPd2
+R1
+R12
+R13
+R14
+L0 1128
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 S[YAaEX_gNbRTeg8<0<C92
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_debug
+IUjfCPJSEAbo=BU=P`=@Y93
+Vb904IVN2J8H6G?BA9D`JT2
+R1
+R12
+R13
+R14
+L0 151
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 ETPfVeC4CP0b?m<_B3IXD1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_dtrace
+IIQ^4LSnl?m8JBnGZkXToJ1
+VUYZmI:bKejkce0LS2]@R71
+R1
+R12
+R13
+R14
+L0 1704
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 ]LELzFjNlzMbKO^U_ON4G2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_fifo
+IKN>noZGn`h4S>^1_2jJOO1
+VDO;JLz8X6lT:dDa;U:o2o2
+R1
+R12
+R13
+R14
+L0 1957
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 TZW`M=A:<5A0T=O?G`V>z3
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_fifo_cnt_inc
+Ib]dGDDAjYJFVZAKB5kJ^Y0
+V;;5`In<2_?>`SG5UV8F:d0
+R1
+R12
+R13
+R14
+L0 1911
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 Cj=eLVdf:l8Re>UZ=Ba832
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_fifo_wrptr_inc
+IlkQWgF6^_`@En]n[U0Ce21
+VMdW7^2FbhMa]=CQVbP1MT2
+R1
+R12
+R13
+R14
+L0 1869
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 EG@o2RJ:V7AVo[[ImUXYL1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_im
+I6EajNi05ZVPB^PCAW5BMR0
+VFYkkc0njoLbHhDFj=4d_N3
+R1
+R12
+R13
+R14
+L0 2526
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 XD?oR`f`nJN:e`HJF=9eU2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_itrace
+IZblMX1`<kY^HUGdAL4G5H2
+VeH>NUNGh692el69^h=R1_0
+R1
+R12
+R13
+R14
+L0 1314
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 [LdJeJYB4FP020mX_^ig10
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_pib
+IcdCm>R0_HVgLiKSG3PkoJ1
+VzjCHVdLO97KjUIjN=i]Q<1
+R1
+R12
+R13
+R14
+L0 2458
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 kF=G26@V_8S=5z@1@]D9z1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_td_mode
+IC>ZBCWbambfDC?g^bC=`D1
+VFE0<J2^8FNN>926KM6_lm0
+R1
+R12
+R13
+R14
+L0 1637
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 mgUWm^KcCKA`imaf8RAaT2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_xbrk
+IfX5l7V9Qc`?C`FD[g?z8H1
+V2ePb_;Vo;Czc`kIna9Uh71
+R1
+R12
+R13
+R14
+L0 922
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 [PTRA043J^e0<mC2cU4ZK2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_ocimem
+I@6fR=Bo3K5FUIjW8l:S`72
+V]idO6ifK^`;95C_UzheJi3
+R1
+R12
+R13
+R14
+L0 355
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 Tj_jhRgJZeR_?ko3zTRZ01
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_performance_monitors
+ISg2S7Eg]M2R1?gU:545410
+V7H>nFmB>Pkh5obb`o=?3:1
+R1
+R12
+R13
+R14
+L0 2642
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 V0DdmoXhBAKCk=^bR51Ah1
+!s85 0
+!s101 -O0
+vusb_system_cpu_oci_test_bench
+I:2>fa@Vbc@N0M<ckgMEQ]2
+VRfgHG<R<k9?TVoZHfZo781
+R1
+R12
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 oPd4L[?51ih>g5<7^g0Aa0
+!s85 0
+!s108 1417535826.933000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v|
+!s101 -O0
+vusb_system_cpu_ociram_sp_ram_module
+I8=2`00ac1k4L:51?81;X_0
+Ve=Z@PM9m=>0ZOSi@YXV?O1
+R1
+R12
+R13
+R14
+L0 292
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 7AmQFLh2RY]Wh`mbP5Hi12
+!s85 0
+!s101 -O0
+vusb_system_cpu_register_bank_a_module
+I0RR?Ec>[?G]?k;nJ9X1go0
+V0jUHH?W<M7DCGPE5z;kjA0
+R1
+R12
+R13
+R14
+L0 21
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 ZVHdJIeQ5R_@bXL?Ta=2`2
+!s85 0
+!s101 -O0
+vusb_system_cpu_register_bank_b_module
+IP=SmGTJ=KZzXO0>=I0c?P2
+VmKifK>Wlh]3HXz?EESfSi0
+R1
+R12
+R13
+R14
+L0 86
+R3
+r1
+31
+R15
+R16
+R17
+R4
+R5
+!i10b 1
+!s100 =z2LPZ6kk@<O2WQT^gXoC0
+!s85 0
+!s101 -O0
+vusb_system_cpu_test_bench
+IOQMfYdFG722j1ChZ6cjl30
+VW80kfD15;L6U9MUAFhc741
+R1
+R12
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 S?[FVR1DH^aWQkJ5WJ6W42
+!s85 0
+!s108 1417535827.132000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v|
+!s101 -O0
+vusb_system_jtag_uart
+IdQ??kB8^lLnG]4DWPLzO02
+VL=_bjkVz714>CXK>e_F1Z2
+R1
+Z18 w1411969420
+Z19 8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v
+Z20 FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v
+L0 327
+R3
+r1
+31
+Z21 !s108 1417535827.374000
+Z22 !s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v|
+R4
+R5
+!i10b 1
+!s100 YD>]P`[eCXKLF`8^n_0Ml2
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_scfifo_r
+I3DS;`>Y6fIB_RQSo7GlE;3
+VdS]hoiB=<mfkA?kdnjbK<0
+R1
+R18
+R19
+R20
+L0 240
+R3
+r1
+31
+R21
+R22
+R23
+R4
+R5
+!i10b 1
+!s100 ?:A;7@DBm>URo2g9eGP`10
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_scfifo_w
+IS<j0QW58nFZ:5kU2ImR^13
+V4V>WJzRk5>P4zIUchzUJj0
+R1
+R18
+R19
+R20
+L0 77
+R3
+r1
+31
+R21
+R22
+R23
+R4
+R5
+!i10b 1
+!s100 ]IM:3^nIi`:loC9chi[@K0
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_sim_scfifo_r
+IY;nA6JY@6Y[?iIQQCS3nL2
+V:h4lnfCXE1iK>oWc=D9M:3
+R1
+R18
+R19
+R20
+L0 162
+R3
+r1
+31
+R21
+R22
+R23
+R4
+R5
+!i10b 1
+!s100 ]7cf^8Oi2oN?cdTmk8LRj2
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_sim_scfifo_w
+IDEojRR58HMFZRBjAhh`@d0
+VXHdd^_@2Xb0?;H2?5[cDb2
+R1
+R18
+R19
+R20
+L0 21
+R3
+r1
+31
+R21
+R22
+R23
+R4
+R5
+!i10b 1
+!s100 el<e^QYFYWLoWQkIH]emb2
+!s85 0
+!s101 -O0
+vusb_system_keycode
+I=V4nZ9:1DO[K0oV[Zb?XG3
+Vd`LiXMmPl66@aFJQWLogm2
+R1
+R2
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v
+L0 21
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 g@BY@eLJbFQ0i7I^HMf`K1
+!s85 0
+!s108 1417535824.048000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v|
+!s101 -O0
+vusb_system_mm_interconnect_0
+I0nFC@@deHnz8XA_PDDS;40
+VA=02dBO3mZTkb4fFF[[H^2
+R1
+R6
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v
+L0 9
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 0b1zmnUM2V`IKE27IiH^o2
+!s85 0
+!s108 1417535822.733000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v|
+!s101 -O0
+vusb_system_mm_interconnect_1
+I[]i2OPIdjBDAjGjXQKb9T1
+VFefcb:m5_Mg2GBMkIIgmJ3
+R1
+R6
+8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v
+FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v
+L0 9
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Pj9K`6abTo3?aX7DHlJ8D2
+!s85 0
+!s108 1417535822.568000
+!s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v|
+!s101 -O0
+vusb_system_sdram
+!i10b 1
+!s100 hh8RQGHh<f@<CSLb=<@O10
+IB4DfQm6d4`A=nFhTBW`[13
+VPbH0JdV>Cz<d=5=Uo;g<>1
+R1
+R18
+Z24 8J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v
+Z25 FJ:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v
+L0 158
+R3
+r1
+!s85 0
+31
+Z26 !s108 1417535827.805000
+Z27 !s107 J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|usb_system|+incdir+J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules|J:/ECE385/Music_Synthesizer/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v|
+!s101 -O0
+R4
+R5
+vusb_system_sdram_input_efifo_module
+!i10b 1
+!s100 W_EKmL@@L1_CK]4hdB>cR2
+INZFGdAkieXV3<XfI0@RAV2
+V_S7jk:3I=c;eleWiTWcBD0
+R1
+R18
+R24
+R25
+L0 21
+R3
+r1
+!s85 0
+31
+R26
+R27
+R28
+!s101 -O0
+R4
+R5

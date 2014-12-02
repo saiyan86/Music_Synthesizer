@@ -1,0 +1,5 @@
+module keybuffer	(input [7:0]keycode,
+						 output [15:0]keybuffer);
+
+						 
+endmodule
