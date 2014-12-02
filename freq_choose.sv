@@ -49,18 +49,18 @@ case(noteStream1[8:6])
     
 3'd4: begin 
    case(noteStream1[5:0])
-   6'd1: freq1  = 262; //C4
+   6'd1: freq1  = 262; //C4 1
    6'd2: freq1  = 277; //C#4/Db4 
-   6'd3: freq1  = 294; //D4
+   6'd3: freq1  = 294; //D4 2
    6'd4: freq1  = 311; //D#4/Eb4
-   6'd5: freq1  = 330; //E4
-   6'd6: freq1  = 349; //F4
+   6'd5: freq1  = 330; //E4 3
+   6'd6: freq1  = 349; //F4 4
    6'd7: freq1  = 370; //F#4/Gb4
-   6'd8: freq1  = 392; //G4
+   6'd8: freq1  = 392; //G4 5
    6'd9: freq1  = 415; //G#4/Ab4  
-   6'd10: freq1  = 440; //A4
+   6'd10: freq1  = 440; //A4 6
    6'd11: freq1  = 466; //A#4/Bb4
-   6'd12: freq1  = 494; //B4
+   6'd12: freq1  = 494; //B4 7
    default: freq1  = 0;// should never happen
    endcase
     end

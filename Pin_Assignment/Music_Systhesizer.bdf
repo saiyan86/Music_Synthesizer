@@ -126,7 +126,7 @@ agreement for further details.
 	(input)
 	(rect -896 496 -728 512)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "SW[2..0]" (rect 5 0 49 12)(font "Arial" ))
+	(text "SW[2..0]" (rect 5 0 48 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -137,6 +137,41 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -960 512 -896 528))
+)
+(pin
+	(input)
+	(rect -320 504 -152 520)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW[14]" (rect 5 0 42 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -384 504 -320 520))
+)
+(pin
+	(input)
+	(rect -320 544 -152 560)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW[15]" (rect 5 0 42 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -384 544 -320 560))
 )
 (pin
 	(output)
@@ -1236,18 +1271,118 @@ agreement for further details.
 		(pt 256 32)
 		(output)
 		(text "NoteStream1_out[8..0]" (rect 0 0 112 12)(font "Arial" ))
-		(text "NoteStream1_out[8..0]" (rect 141 27 235 39)(font "Arial" ))
+		(text "NoteStream1_out[8..0]" (rect 141 27 253 39)(font "Arial" ))
 		(line (pt 256 32)(pt 240 32)(line_width 3))
 	)
 	(port
 		(pt 256 48)
 		(output)
 		(text "NoteStream2_out[8..0]" (rect 0 0 112 12)(font "Arial" ))
-		(text "NoteStream2_out[8..0]" (rect 141 43 235 55)(font "Arial" ))
+		(text "NoteStream2_out[8..0]" (rect 141 43 253 55)(font "Arial" ))
 		(line (pt 256 48)(pt 240 48)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 240 128))
+	)
+)
+(symbol
+	(rect -128 376 40 488)
+	(text "musicBox" (rect 5 0 53 12)(font "Arial" ))
+	(text "inst8" (rect 8 96 31 108)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset" (rect 0 0 24 12)(font "Arial" ))
+		(text "reset" (rect 21 43 45 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "en" (rect 0 0 11 12)(font "Arial" ))
+		(text "en" (rect 21 59 32 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "freq1[10..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "freq1[10..0]" (rect 99 27 147 39)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "freq2[10..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "freq2[10..0]" (rect 99 43 147 55)(font "Arial" ))
+		(line (pt 168 48)(pt 152 48)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 96))
+	)
+)
+(symbol
+	(rect 120 456 320 600)
+	(text "HumanComputerMux" (rect 5 0 108 12)(font "Arial" ))
+	(text "inst15" (rect 8 128 37 140)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "h_freq1[10..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "h_freq1[10..0]" (rect 21 27 90 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "h_freq2[10..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "h_freq2[10..0]" (rect 21 43 90 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "c_freq1[10..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "c_freq1[10..0]" (rect 21 59 90 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "c_freq2[10..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "c_freq2[10..0]" (rect 21 75 90 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "select" (rect 0 0 29 12)(font "Arial" ))
+		(text "select" (rect 21 91 50 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "freq1[10..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "freq1[10..0]" (rect 131 27 188 39)(font "Arial" ))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "freq2[10..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "freq2[10..0]" (rect 131 43 188 55)(font "Arial" ))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 184 128))
 	)
 )
 (connector
@@ -1352,11 +1487,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 744 632)
-	(pt 856 632)
-	(bus)
-)
-(connector
 	(pt 760 56)
 	(pt 760 240)
 )
@@ -1447,10 +1577,6 @@ agreement for further details.
 	(pt -480 -280)
 )
 (connector
-	(pt -480 -280)
-	(pt -480 -336)
-)
-(connector
 	(pt -224 88)
 	(pt -208 88)
 	(bus)
@@ -1513,25 +1639,9 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 416 472)
-	(pt 416 552)
-	(bus)
-)
-(connector
-	(pt 416 552)
-	(pt 416 632)
-	(bus)
-)
-(connector
 	(text "keybuffer[7..4]" (rect 426 536 501 548)(font "Arial" ))
 	(pt 416 552)
 	(pt 576 552)
-	(bus)
-)
-(connector
-	(text "keybuffer[3..0]" (rect 426 616 501 628)(font "Arial" ))
-	(pt 416 632)
-	(pt 576 632)
 	(bus)
 )
 (connector
@@ -1617,16 +1727,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 136 256)
-	(pt 208 256)
-	(bus)
-)
-(connector
-	(pt 208 272)
-	(pt 160 272)
-	(bus)
-)
-(connector
 	(pt 88 224)
 	(pt 208 224)
 )
@@ -1642,30 +1742,6 @@ agreement for further details.
 (connector
 	(pt -184 288)
 	(pt -176 288)
-)
-(connector
-	(pt -184 160)
-	(pt -184 288)
-)
-(connector
-	(pt 136 256)
-	(pt 136 320)
-	(bus)
-)
-(connector
-	(pt 136 320)
-	(pt 40 320)
-	(bus)
-)
-(connector
-	(pt 160 272)
-	(pt 160 336)
-	(bus)
-)
-(connector
-	(pt 160 336)
-	(pt 40 336)
-	(bus)
 )
 (connector
 	(pt 88 288)
@@ -1720,29 +1796,12 @@ agreement for further details.
 	(pt 440 376)
 )
 (connector
-	(pt 440 376)
-	(pt 272 376)
-)
-(connector
 	(pt 632 136)
 	(pt 440 136)
 )
 (connector
 	(pt 440 136)
 	(pt 176 136)
-)
-(connector
-	(pt 272 376)
-	(pt 272 640)
-)
-(connector
-	(pt -536 640)
-	(pt 272 640)
-)
-(connector
-	(pt -240 400)
-	(pt 96 400)
-	(bus)
 )
 (connector
 	(pt -232 248)
@@ -1775,8 +1834,32 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 96 608)
-	(pt 96 400)
+	(pt 440 376)
+	(pt 392 376)
+)
+(connector
+	(pt 392 376)
+	(pt 392 640)
+)
+(connector
+	(pt -536 640)
+	(pt 392 640)
+)
+(connector
+	(pt -480 -336)
+	(pt -480 -280)
+)
+(connector
+	(pt -480 -280)
+	(pt -480 328)
+)
+(connector
+	(pt -480 328)
+	(pt -208 328)
+)
+(connector
+	(pt 40 336)
+	(pt 88 336)
 	(bus)
 )
 (connector
@@ -1822,6 +1905,21 @@ agreement for further details.
 	(bus)
 )
 (connector
+	(pt -728 504)
+	(pt -472 504)
+	(bus)
+)
+(connector
+	(pt -192 472)
+	(pt -216 472)
+	(bus)
+)
+(connector
+	(pt -176 488)
+	(pt -216 488)
+	(bus)
+)
+(connector
 	(pt -488 248)
 	(pt -488 384)
 )
@@ -1830,24 +1928,166 @@ agreement for further details.
 	(pt -488 472)
 )
 (connector
-	(pt 96 608)
-	(pt -496 608)
+	(pt 856 632)
+	(pt 744 632)
 	(bus)
 )
 (connector
-	(pt -472 504)
-	(pt -728 504)
+	(text "keybuffer[3..0]" (rect 426 616 501 628)(font "Arial" ))
+	(pt 416 632)
+	(pt 576 632)
 	(bus)
 )
 (connector
-	(pt -216 472)
-	(pt -192 472)
+	(pt 416 472)
+	(pt 416 552)
 	(bus)
 )
 (connector
-	(pt -216 488)
-	(pt -176 488)
+	(pt 416 552)
+	(pt 416 632)
 	(bus)
+)
+(connector
+	(pt 40 320)
+	(pt 104 320)
+	(bus)
+)
+(connector
+	(pt 208 256)
+	(pt 152 256)
+	(bus)
+)
+(connector
+	(pt 152 256)
+	(pt 152 424)
+	(bus)
+)
+(connector
+	(pt 152 424)
+	(pt 352 424)
+	(bus)
+)
+(connector
+	(pt 208 272)
+	(pt 176 272)
+	(bus)
+)
+(connector
+	(pt 176 272)
+	(pt 176 392)
+	(bus)
+)
+(connector
+	(pt 176 392)
+	(pt 368 392)
+	(bus)
+)
+(connector
+	(pt -144 440)
+	(pt -128 440)
+)
+(connector
+	(pt -208 328)
+	(pt -208 424)
+)
+(connector
+	(pt -208 424)
+	(pt -128 424)
+)
+(connector
+	(pt -184 408)
+	(pt -128 408)
+)
+(connector
+	(pt 48 424)
+	(pt 40 424)
+	(bus)
+)
+(connector
+	(pt 72 408)
+	(pt 40 408)
+	(bus)
+)
+(connector
+	(pt -184 160)
+	(pt -184 288)
+)
+(connector
+	(pt -184 288)
+	(pt -184 408)
+)
+(connector
+	(pt -144 512)
+	(pt -152 512)
+)
+(connector
+	(pt -144 440)
+	(pt -144 512)
+)
+(connector
+	(pt 88 336)
+	(pt 88 504)
+	(bus)
+)
+(connector
+	(pt 104 320)
+	(pt 104 488)
+	(bus)
+)
+(connector
+	(pt 104 488)
+	(pt 120 488)
+	(bus)
+)
+(connector
+	(pt 88 504)
+	(pt 120 504)
+	(bus)
+)
+(connector
+	(pt 72 520)
+	(pt 120 520)
+	(bus)
+)
+(connector
+	(pt 48 536)
+	(pt 120 536)
+	(bus)
+)
+(connector
+	(pt 352 424)
+	(pt 352 488)
+	(bus)
+)
+(connector
+	(pt 352 488)
+	(pt 320 488)
+	(bus)
+)
+(connector
+	(pt 368 504)
+	(pt 320 504)
+	(bus)
+)
+(connector
+	(pt 368 392)
+	(pt 368 504)
+	(bus)
+)
+(connector
+	(pt 72 408)
+	(pt 72 520)
+	(bus)
+)
+(connector
+	(pt 48 424)
+	(pt 48 536)
+	(bus)
+)
+(connector
+	(pt -152 552)
+	(pt 120 552)
 )
 (junction (pt 728 320))
 (junction (pt 656 192))
@@ -1864,3 +2104,5 @@ agreement for further details.
 (junction (pt -184 160))
 (junction (pt -488 384))
 (junction (pt 440 136))
+(junction (pt -184 288))
+(junction (pt -480 -280))

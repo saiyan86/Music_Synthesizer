@@ -1,0 +1,23 @@
+module HumanComputerMux	(input h_freq1[10:0],
+								 input h_freq2[10:0],
+								 input c_freq1[10:0],
+								 input c_freq2[10:0],
+								 input select,//0 for human 1 for computer
+								 output freq1[10:0],
+								 output freq2[10:0]);
+always_comb
+begin
+  if (sel == 1'b0)
+  begin
+      freq1[10:0] = h_freq1[10:0];
+		freq2[10:0] = h_freq2[10:0];
+  end 
+  else
+  begin
+      freq1[10:0] = c_freq1[10:0];
+		freq2[10:0] = c_freq2[10:0];
+  end
+end
+
+
+endmodule

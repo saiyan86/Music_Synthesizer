@@ -1,0 +1,66 @@
+module musicBox	(input clk, reset,en,
+						 output freq1[10:0],
+						 output freq2[10:0]);
+
+logic [25:0]durationCount = 0;
+logic [9:0]noteCount = 0;						 
+always @ (posedge clk)
+begin 
+	if(reset)
+	begin
+	durationCount = 0;
+	end
+	else if(en)
+	begin
+		if(durationCount==12500000)//for 50MHz clock, count=12.5M=>250ms. This can make the sound to last 250ms.
+		begin
+			noteCount = noteCount+1;
+			durationCount <= 0;
+		end
+		else
+			durationCount = durationCount + 1;
+	end
+end
+
+always @ (posedge clk)
+begin
+	case(noteCount)
+	0: freq1 = 0;
+	1: freq1 = 349;
+	2: freq1 = 330;
+	3: freq1 = 294;
+	5: freq1 = 440;
+	7: freq1 = 294;
+	8: freq1 = 330;
+	10: freq1 = 466;
+	12: freq1 = 440;
+	13: freq1 = 392;
+	14: freq1 = 349;
+	15: freq1 = 392;
+	16: freq1 = 349;
+	17: freq1 = 392;
+	18: freq1 = 440;
+	20: freq1 = 349;
+	21: freq1 = 330;
+	22: freq1 = 294;
+	24: freq1 = 392;
+	25: freq1 = 349;
+	26: freq1 = 330;
+	28: freq1 = 349;
+	30: freq1 = 294;
+	32: freq1 = 440;
+	34: freq1 = 349;
+	36: freq1 = 392;
+	38: freq1 = 587;
+	40: freq1 = 523;
+	42: freq1 = 466;
+	43: freq1 = 440;
+	44: freq1 = 392;
+	45: freq1 = 440;
+	49: freq1 = 0;
+	default: freq1 = 0;
+	endcase
+end
+
+assign freq2 = 0;
+end
